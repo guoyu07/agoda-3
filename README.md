@@ -2,11 +2,11 @@
 
 Sejak offer Travel (Agoda) ini, akan diberlakukan pemakaian IndoCPA Auth, dimana dipergunakan untuk kontrol sistem yang lebih baik.
 
-Secara default, Auth IndoCPA akan mempunyai limit 10000 maximum request per user. Mohon dijaga penggunaan token Anda, jangan sampai dipakai orang lain, bahkan teman Anda sendiri. Penggunaan token yang tidak benar akan mempengaruhi trackingURL dan berujung ke earning. 
+Secara default, Auth IndoCPA akan mempunyai limit 10000 maximum request per user. Mohon dijaga penggunaan token Anda, jangan sampai dipakai orang lain, bahkan teman Anda sendiri. Penggunaan token yang tidak benar akan mempengaruhi tracking URL dan berujung ke earning. 
 Apabila memerlukan tambahan bisa kontak wisnu@indocpa.co.id
 
 
-Berikut beberapa contoh penggunaan resource data IndoCPA melewati Atuh system
+Berikut beberapa contoh penggunaan resource data IndoCPA melewati Auth system
 
 ### Bash
 ```sh
