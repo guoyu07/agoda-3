@@ -64,11 +64,11 @@ https://auth.indocpa.me/hotel/?rates_from=100
 #### max_rate
 ```json
 https://auth.indocpa.me/hotel/?max_rate=100
-````
+```
 #### min_rate
 ```json
 https://auth.indocpa.me/hotel/?min_rate=100
-````
+```
 #### recentlyBooked
 ```json
 https://auth.indocpa.me/hotel/recentlyBooked/{city_id}
