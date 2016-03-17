@@ -2,7 +2,8 @@
 
 Sejak offer Travel (Agoda) ini, akan diberlakukan pemakaian IndoCPA Auth, dimana dipergunakan untuk kontrol sistem yang lebih baik.
 
-Secara default, Auth IndoCPA akan mempunyai limit 10000 maximum request per user. Apabila memerlukan tambahan bisa kontak wisnu@indocpa.co.id
+Secara default, Auth IndoCPA akan mempunyai limit 10000 maximum request per user. Mohon dijaga penggunaan token Anda, jangan sampai dipakai orang lain, bahkan teman Anda sendiri. Penggunaan token yang tidak benar akan mempengaruhi trackingURL dan berujung ke earning. 
+Apabila memerlukan tambahan bisa kontak wisnu@indocpa.co.id
 
 
 Berikut beberapa contoh penggunaan resource data IndoCPA melewati Atuh system
@@ -34,3 +35,41 @@ function IndoCPA($TOKEN, $url) {
 }
 ```
 
+## Travel Endpoints
+
+#### hotel_id
+```json
+https://auth.indocpa.me/hotel/{hotel_id}
+```
+#### user info
+```json
+https://auth.indocpa.me/user
+```
+#### star_rating
+```json
+https://auth.indocpa.me/hotel/?star_rating=3
+```
+#### country
+```json
+https://auth.indocpa.me/hotel/?country=india
+```
+#### city
+```json
+https://auth.indocpa.me/hotel/?city=paris
+```
+#### rates_from
+```json
+https://auth.indocpa.me/hotel/?rates_from=100
+```
+#### max_rate
+```json
+https://auth.indocpa.me/hotel/?max_rate=100
+````
+#### min_rate
+```json
+https://auth.indocpa.me/hotel/?min_rate=100
+````
+#### recentlyBooked
+```json
+https://auth.indocpa.me/hotel/recentlyBooked/{city_id}
+```
