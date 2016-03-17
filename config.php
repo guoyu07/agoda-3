@@ -1,8 +1,6 @@
 <?php
 $affid = 3668;
 $email = 'wisnu@indocpa.co.id';
-//$TOKEN = '00492847-01cf-4696-a567-9584d1fb2e7a';
-//$TOKEN = '0030b064-d0c1-4090-bd00-0a49c9e94151';
 $TOKEN = '20972971-c2a9-45af-a37b-068ed83067c7'; // wisnu 3668
 
 function IndoCPA($TOKEN, $url) {
